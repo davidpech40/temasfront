@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: white;
+  padding: 10px;
+}
+.titulos{
+  
+  text-align: center;
+}
+.linea{
+  max-width: 80px;
+  height: 3px;
+  background-color: gray;
+  border: 0;
+  margin: auto;
+}
+h5 {
+  text-align: center;
+  color: blue;
+}
+h1 {
+  text-align: center;
+  
+}
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+}
+.fotos_imagenes{
+  
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.fotos_imagenes img{
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.fondogris{
+  background-color: #eeeeee;
+}
+.fotos_team{
+  
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.fotos_team img{
+  max-width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.fondoblanco{
+  background-color: white;
+  border-bottom: 2px blue solid;
+}
+h3{
+  text-align: center;
+}
+p{
+  text-align: center;
+  color: blue;
+  color: black;
+}
+.divgrande {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.plan1 {
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px rgb(226, 225, 225) solid;
+  border-radius: 5px;
+  line-height: 35px;
+  padding-bottom: 20px; 
+  transition: all 1s;
+}
+.div1:hover .plan1 {
+  border: 1px blue solid;
+
+}
+.div1:hover .minidiv1 {
+  border: 1px blue solid;
+
+}
+.div1:hover .btn_uno {
+  background-color: blue ;
+  color: white ;
+
+}
+.div2:hover .plan2 {
+  border: 1px blue solid;
+
+}
+.div2:hover .minidiv2 {
+  border: 1px blue solid;
+
+}
+.div2:hover .btn_dos {
+  background-color: blue ;
+  color: white ;
+
+}
+.div3:hover .plan3 {
+  border: 1px blue solid;
+
+}
+.div3:hover .minidiv3 {
+  border: 1px blue solid;
+
+}
+.div3:hover .btn_tres {
+  background-color: blue ;
+  color: white ;
+
+}
+.plan2 {
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px rgb(226, 225, 225) solid;
+  border-radius: 5px;
+  line-height: 35px;
+  padding-bottom: 20px; 
+  transition: all 1s;
+}
+.plan3 {
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px rgb(226, 225, 225) solid;
+  border-radius: 5px;
+  line-height: 35px;
+  padding-bottom: 20px; 
+  transition: all 1s;
+}
+.minidiv1 {
+  max-width: 70%;
+  text-align: center;
+  border: 1px rgb(226, 225, 225) solid;
+  border-radius: 5px;
+  transition: all 1s;
+}
+.minidiv2 {
+  max-width: 70%;
+  text-align: center;
+  border: 1px rgb(226, 225, 225) solid;
+  border-radius: 5px;
+  transition: all 1s;
+}
+.minidiv3 {
+  max-width: 70%;
+  text-align: center;
+  border: 1px rgb(226, 225, 225) solid;
+  border-radius: 5px;
+  transition: all 1s;
+}
+.plan{
+    max-width: 900px;
+    margin: auto;
+}
+.azul {
+  color: blue;
+}
+h3{
+  color: blue;
+}
+.text2 {
+  max-width: 200px;
+  text-align: left;
+}
+.alinear {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+}
+.btn_uno {
+  padding: 5px 20px ;
+  border: 1px blue solid;
+  color: black;
+  text-decoration: none;
+
+
+}
+.btn_dos {
+  padding: 5px 20px ;
+  border: 1px blue solid;
+  color: black;
+  text-decoration: none;
+  
+
+}
+.btn_tres {
+  padding: 5px 20px ;
+  border: 1px blue solid;
+  color: black;
+  text-decoration: none;
+  
+
+}
+
+.btn_2 {
+  text-decoration: none;
+  color: black;
+}
+.pleft {
+  text-align: left;
+}
+.zoom1 {
+  overflow: hidden;
+
+}
+.zoom1 img{
+  transform: scale(1);
+  transition: all 1s;
+}
+.zoom1:hover img{
+  transform: scale(2);
+}
+.zoom2 {
+  overflow: hidden;
+
+}
+.zoom2 img{
+  transform: scale(1);
+  transition: all 1s;
+}
+.zoom2:hover img{
+  transform: scale(2);
+}
+.zoom3 {
+  overflow: hidden;
+
+}
+.zoom3 img{
+  transform: scale(1);
+  transition: all 1s;
+}
+.zoom3:hover img{
+  transform: scale(2);
+}
